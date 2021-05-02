@@ -79,9 +79,6 @@ h3 {
   }
 }
 .bannerConsul {
-  grid-area: banner;
-  width: 100%;
-  height: 100%;
   display: grid;
   background-image: url(../files/fotouno.jpg);
   background-position: center;
