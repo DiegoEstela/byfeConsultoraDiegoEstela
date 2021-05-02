@@ -1,0 +1,10 @@
+@mixin grid ($alto) {
+
+    display: grid;
+    grid-template-rows: auto $alto auto;
+    grid-template-areas: 
+                        "nav"
+                        "banner"
+                        "footer";
+
+}

@@ -1,0 +1,49 @@
+
+
+.footer{
+
+    background-color: $blanco;
+    font-size: 16px;
+    position: relative;
+    
+    &__lista{
+
+        margin-top: 2sem;
+    }
+
+    &__item{
+
+        display: grid;
+        margin-top: 1em;
+        list-style: none;
+        justify-content: right;
+    }
+    &__img{
+        margin-right: 2rem;
+        width: 1.5em;
+    }
+    
+}
+
+
+.logoFooter{
+
+    &__img{
+
+        position: absolute;
+        top: -10em;
+        width: 12em;
+        margin-left: 3em;
+        background-color: $amarillo;
+        border-radius: 100%;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+    }
+
+    &__parrafo{
+
+        margin-left: 3em;
+    }
+
+
+}
