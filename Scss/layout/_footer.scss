@@ -14,13 +14,13 @@
     &__item{
 
         display: grid;
-        margin-top: 1em;
+        margin-top: 1.5em;
         list-style: none;
         justify-content: right;
     }
     &__img{
         margin-right: 2rem;
-        width: 1.5em;
+        width: 2.7em;
     }
     
 }
@@ -31,7 +31,7 @@
     &__img{
 
         position: absolute;
-        top: -10em;
+        top: -12.5em;
         width: 12em;
         margin-left: 3em;
         background-color: $amarillo;
