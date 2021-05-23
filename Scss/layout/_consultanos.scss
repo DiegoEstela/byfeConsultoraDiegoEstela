@@ -1,11 +1,11 @@
 
-.bannerConsul{
+.bannerConsulForm{
     
     display: grid;
     background-image: url(../files/fotouno.jpg);
     background-position: center;
     background-size: cover;
-    
+    @include grid (auto);
     
 }
 

@@ -78,13 +78,14 @@ h3 {
     justify-content: center;
   }
 }
-.bannerConsul {
+.bannerConsulForm {
   display: grid;
   background-image: url(../files/fotouno.jpg);
   background-position: center;
   background-size: cover;
-  -webkit-animation-name: banner;
-          animation-name: banner;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "nav" "banner" "footer";
 }
 
 #formularios {
