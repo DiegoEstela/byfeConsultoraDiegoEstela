@@ -85,10 +85,6 @@ h3 {
   background-size: cover;
   -webkit-animation-name: banner;
           animation-name: banner;
-  -webkit-animation-duration: 60s;
-          animation-duration: 60s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
 }
 
 #formularios {
